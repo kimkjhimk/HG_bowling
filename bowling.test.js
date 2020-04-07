@@ -1,6 +1,5 @@
-
 function calculateScore(line) {
-  let result = 90;
+  let result = 0;
 
   for (i = 0; i < line.length; i++) {
     const roll = line[i];
@@ -24,8 +23,8 @@ test("XXXXXXXXXXXX", () => {
   expect(calculateScore("XXXXXXXXXXXX")).toBe(300);
 });
 
-test("8/9-9/X71X63X63X8", () => {
-  expect(calculateScore("8/9-9/X71X63X63X8")).toBe(148);
+test("8/9-9/X71X63X63X81", () => {
+  expect(calculateScore("8/9-9/X71X63X63X81")).toBe(149);
 });
 
 test("X9/7-9/XX8/X9/9/7", () => {

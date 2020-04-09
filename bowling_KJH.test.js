@@ -18,7 +18,8 @@ function calculateScore(line) {
 	  rollScore.push(number);
   }
 
-  for (i = 0; i < line.length; i++) {
+  for (i = 0; i < line.length; i++) //rollScore배열에 숫자로 값을 저장하여 사용 => 추후 다른 로직으로 대체 예정
+  {
     const roll = line[i];
     const isStrike = roll === "X";
     const isSpare = roll === "/";
@@ -43,7 +44,8 @@ function calculateScore(line) {
     }
   }
       
-  for (i = 0; i < line.length; i++) {
+  for (i = 0; i < line.length; i++) //점수 계산 로직
+  {
     const roll = line[i];
     const isStrike = roll === "X";
     const isSpare = roll === "/";

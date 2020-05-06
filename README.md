@@ -1,18 +1,13 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's Starter: Uno
-</h1>
+# gatsby-starter-typescript
+The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/).
 
-Gatsby starter for creating a blog and showcasing your work with landing pages for earch portfolio item.
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
-[Live Demo](https://22boxes-gatsby-uno.netlify.com/)
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-starter-typescript https://github.com/haysclark/gatsby-starter-typescript
+```
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iamtherealgd/gatsby-starter-22boxes-uno)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/iamtherealgd/gatsby-starter-22boxes-uno)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haysclark/gatsby-starter-typescript)

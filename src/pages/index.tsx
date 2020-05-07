@@ -2,16 +2,16 @@ import * as React from 'react'
 import Link from 'gatsby-link'
 
 interface IndexPageProps {
-  data: {
-    site: {
-      siteMetadata: {
-        title: string
-      }
+    data: {
+        site: {
+            siteMetadata: {
+                title: string
+            }
+        }
     }
-  }
 }
 
-const Index :React.FC<IndexPageProps> =({data})=>{
+const Index: React.FC<IndexPageProps> = ({data}) => {
     return (
         <div>
             <h1>Hi people</h1>
@@ -25,6 +25,7 @@ const Index :React.FC<IndexPageProps> =({data})=>{
     )
 }
 
+export default Index;
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -36,4 +37,3 @@ export const pageQuery = graphql`
   }
 `
 
-export default Index;

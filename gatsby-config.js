@@ -1,10 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Typescript Starter`,
+    title: `Gatsby + Typescript + Tailwind CSS + Styled-Components Starter`,
+    description: `A bare-bones Typescript + Tailwind CSS + Styled-Components + starter to kickoff your project.`,
+    author: `@reevmich`
   },
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-    // Add typescript stack into webpack
-    `gatsby-plugin-typescript`
-  ],
-}
+  plugins: [`gatsby-plugin-styled-components`, 'gatsby-plugin-typescript']
+};

@@ -13,6 +13,7 @@ interface StyledButtonProps {
 const StyledButton = styled.button(
   ({ isPrimary, isSecondary, isSmall, theme }: StyledButtonProps) => [
     // The base button styles added with the tw macro
+    // eslint-disable-next-line max-len
     tw`inline-block px-8 py-2 mt-0 mb-5 text-lg transition-transform duration-75 transform rounded hocus:scale-105 hocus:text-yellow-400 focus:outline-none`,
 
     // Use props to conditionally style your components
@@ -35,6 +36,7 @@ const StyledButton = styled.button(
   ]
 );
 
+// eslint-disable-next-line react/jsx-props-no-spreading
 const Button = (props: StyledButtonProps) => <StyledButton {...props} />;
 
 export default Button;

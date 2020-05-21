@@ -4,7 +4,6 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'bowling',
   connector: 'mysql',
-  //url: 'jdbc:mariadb://127.0.0.1:3306/bowling',
   url: 'mariadb://bowling:akthqudtls1!@localhost/bowling',
   host: '127.0.0.1',
   port: 3306,

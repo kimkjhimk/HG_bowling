@@ -24,7 +24,8 @@
         {
           "forbid": [{ "char": ">", "alternatives": ["&gt;"] }, { "char": "}", "alternatives": ["&#125;"] }]
         }
-      ]
+      ],
+      "prettier/prettier": ["error", { "endOfLine": "auto" }]
     }
   }
   

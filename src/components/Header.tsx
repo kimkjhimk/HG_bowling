@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Header = () => {
   return (
@@ -76,22 +77,22 @@ const Header = () => {
         >
           <ul className="list-reset lg:flex flex-1 items-center px-4 md:px-0">
             <li className="mr-6 my-2 md:my-0">
-              <a
-                href="#"
+              <Link
+                to="/home"
                 className="block py-1 md:py-3 pl-1 align-middle text-orange-600 no-underline hover:text-gray-900 border-b-2 border-orange-600 hover:border-orange-600"
               >
                 <i className="fas fa-home fa-fw mr-3 text-orange-600" />
                 <span className="pb-1 md:pb-0 text-sm">메인</span>
-              </a>
+              </Link>
             </li>
             <li className="mr-6 my-2 md:my-0">
-              <a
-                href="#"
+              <Link
+                to="/ongoingGame"
                 className="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-pink-500"
               >
                 <i className="fas fa-tasks fa-fw mr-3" />
                 <span className="pb-1 md:pb-0 text-sm">진행중 경기</span>
-              </a>
+              </Link>
             </li>
             <li className="mr-6 my-2 md:my-0">
               <a

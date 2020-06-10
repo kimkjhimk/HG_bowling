@@ -5,6 +5,7 @@ import React from 'react';
 import { Table, Row, Col, Slider } from 'antd';
 import Theme from '../components/theme';
 import Layout from '../components/Layout';
+
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 const onGoingGameColumns = [

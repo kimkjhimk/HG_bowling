@@ -13,12 +13,12 @@
     "styledComponents": {}
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "rm -rf public && gatsby build",
     "develop": "gatsby develop",
-    "start:staging": "yarn build:staging && yarn liveServer",
+    "start:prod": "yarn build && yarn liveServer",
     "liveServer": "cd ./public && live-server",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start:dev": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

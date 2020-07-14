@@ -18,7 +18,7 @@ const onGoingGameColumns = [
     dataIndex: 'line'
   },
   {
-    title: '현재 Frame',
+    title: '현재 FrameType',
     dataIndex: 'frame'
   },
   {

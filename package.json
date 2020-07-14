@@ -15,6 +15,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "start:staging": "yarn build:staging && yarn liveServer",
+    "liveServer": "cd ./public && live-server",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -22,6 +24,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "antd": "^4.3.3",
     "gatsby": "^2.22.4",
     "react": "16.12.0",

@@ -18,6 +18,9 @@
       "import/prefer-default-export": "off",
       "react/jsx-props-no-spreading": 0,
       "import/export": 0,
+      "no-plusplus": 0,
+      "no-underscore-dangle": 0,
+      "no-continue": 0,
       "@typescript-eslint/explicit-function-return-type": "off",
       "react/no-unescaped-entities": [
         "error",
@@ -28,4 +31,3 @@
       "prettier/prettier": ["error", { "endOfLine": "auto" }]
     }
   }
-  

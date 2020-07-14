@@ -62,7 +62,9 @@ const Index = () => {
               </Link>
             </div>
             <div className="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
-              <Button>선수용</Button>
+              <Link to="/play">
+                <Button>선수용</Button>
+              </Link>
             </div>
           </div>
         </Main>

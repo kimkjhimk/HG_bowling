@@ -147,8 +147,12 @@ const Game = () => {
     settingRestPinCount(currentFrame, pinCount);
   };
 
+  const GameWrapper = styled.div`
+    min-width: 600px;
+  `;
+
   return (
-    <>
+    <GameWrapper>
       {frames.map((item) => (
         <HeaderItemWrapper key={item.num}>{item.num}</HeaderItemWrapper>
       ))}
@@ -158,7 +162,7 @@ const Game = () => {
       {restPinCounts.map((count) => (
         <Button onClick={() => handleClickRoll(count)}>{count}</Button>
       ))}
-    </>
+    </GameWrapper>
   );
 };
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
-import { Button } from 'antd';
+import { Button, Card } from 'antd';
 import { FRAME_ITEM_WIDTH } from '../constants/frames';
 import FrameLine from './FrameLine';
 import FrameType from '../types/FrameType';
@@ -159,9 +159,12 @@ const Game = () => {
       <div style={{ clear: 'both' }} />
       <FrameLine frames={frames} />
       <div style={{ clear: 'both' }} />
-      {restPinCounts.map((count) => (
-        <Button onClick={() => handleClickRoll(count)}>{count}</Button>
-      ))}
+
+      <Card title="쓰러뜨릴 핀 갯수 선택" style={{ marginTop: 30 }}>
+        {restPinCounts.map((count) => (
+          <Button onClick={() => handleClickRoll(count)}>{count}</Button>
+        ))}
+      </Card>
     </GameWrapper>
   );
 };
